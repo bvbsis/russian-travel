@@ -1,0 +1,12 @@
+.cover__img-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 984px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1025px) {
+  .cover__img-container {
+    max-width: 928px;
+  }
+}

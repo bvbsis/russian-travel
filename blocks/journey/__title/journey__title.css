@@ -1,0 +1,23 @@
+.journey__title {
+  position: absolute;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: center;
+  color: #ffffff;
+  z-index: 2;
+  margin: auto;
+  max-width: 560px;
+  top: calc(50% - 128px);
+  left: calc(50% - 280px);
+}
+
+@media all and (max-width: 530px) {
+  .journey__title {
+    font-size: 32px;
+    line-height: 1.09;
+    max-width: 250px;
+    top: calc(50% - 70px);
+    left: calc(50% - 125px);
+  }
+}

@@ -1,0 +1,11 @@
+.journey {
+  max-width: 1184px;
+  margin: auto;
+  padding-top: 92px;
+}
+
+@media all and (max-width: 530px) {
+  .journey {
+    padding-top: 66px;
+  }
+}

@@ -1,0 +1,22 @@
+.card__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.card__text:nth-child(2) {
+  margin-top: 26px;
+}
+
+@media all and (max-width: 925px) {
+  .card__text {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card__text {
+    padding: 0 16px;
+}

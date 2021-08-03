@@ -1,0 +1,30 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+  padding: 0 48px;
+  margin-top: 92px;
+}
+
+@media screen and (max-width: 1025px) {
+  .gallery {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .gallery {
+    padding: 0 24px;
+    gap: 16px;
+    margin-top: 88px;
+  }
+}
+
+@media all and (max-width: 460px) {
+  .gallery {
+    padding: 0 16px;
+    gap: 12px;
+    margin-top: 64px;
+  }
+  }
+

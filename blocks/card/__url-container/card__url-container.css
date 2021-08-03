@@ -1,0 +1,11 @@
+.card__url-container {
+  display: flex;
+  margin-bottom: 8px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 400px) {
+  .card__url-container {
+    padding: 0 16px;
+}

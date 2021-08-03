@@ -1,0 +1,52 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/Inter/inter.css);
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang-text/header__lang-text.css);
+@import url(../blocks/header/__lang-text/_active/header__lang-text_active.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__img/cover__img.css);
+@import url(../blocks/cover/__img-container/cover__img-container.css);
+@import url(../blocks/cover/__label/cover__label.css);
+@import url(../blocks/statistic/statistic.css);
+@import url(../blocks/statistic/__title/statistic__title.css);
+@import url(../blocks/statistic/__text/statistic__text.css);
+@import url(../blocks/statistic/__list/statistic__list.css);
+@import url(../blocks/statistic/__list-item/statistic__list-item.css);
+@import url(../blocks/statistic/__list-digit/statistic__list-digit.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__url/card__url.css);
+@import url(../blocks/card/__url-container/card__url-container.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/journey/journey.css);
+@import url(../blocks/journey/__title/journey__title.css);
+@import url(../blocks/journey/__subtitle/journey__subtitle.css);
+@import url(../blocks/journey/__link/journey__link.css);
+@import url(../blocks/journey/__img/journey__img.css);
+@import url(../blocks/journey/__cover/journey__cover.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu-element/footer__menu-element.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/link/__active/link__active.css);
+
+
+
+
+
+
+
+
+
+
