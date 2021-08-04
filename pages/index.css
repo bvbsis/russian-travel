@@ -4,6 +4,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang-text/header__lang-text.css);
 @import url(../blocks/header/__lang-text/_active/header__lang-text_active.css);
@@ -30,16 +31,15 @@
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/journey/journey.css);
+@import url(../blocks/journey/__link/journey__link.css);
+@import url(../blocks/journey/__cover/journey__cover.css);
 @import url(../blocks/journey/__title/journey__title.css);
 @import url(../blocks/journey/__subtitle/journey__subtitle.css);
-@import url(../blocks/journey/__link/journey__link.css);
-@import url(../blocks/journey/__img/journey__img.css);
-@import url(../blocks/journey/__cover/journey__cover.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__menu-element/footer__menu-element.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/link/__active/link__active.css);
+@import url(../blocks/link/link.css);
 
 
 

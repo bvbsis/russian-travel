@@ -6,9 +6,6 @@
   line-height: 1.17;
 }
 
-.header__lang-text:first-of-type {
-  margin-right: 18px;
-}
 
 @media all and (max-width: 500px) {
   .header__lang-text {

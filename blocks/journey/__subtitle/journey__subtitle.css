@@ -1,21 +1,15 @@
 .journey__subtitle {
-  position: absolute;
-  top: calc(50% + 40px);
-  left: calc(50% - 180px);
-  max-width: 360px;
-  font-weight: 400;
+  color: white;
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
-  color: #ffffff;
+  margin: 0 auto auto;
+  max-width: 360px;
 }
 
-@media all and (max-width: 530px) {
+@media all and (max-width: 700px) {
   .journey__subtitle {
     font-size: 14px;
     line-height: 1.14;
-    max-width: 288px;
-    top: calc(50% + 5px);
-    left: calc(50% - 144px);
   }
 }

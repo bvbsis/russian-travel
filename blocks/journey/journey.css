@@ -1,11 +1,26 @@
 .journey {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-image: url(../../images/cover-trains.jpg);
   max-width: 1184px;
-  margin: auto;
-  padding-top: 92px;
+  padding-bottom: 60%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  margin: 92px auto 0;
+
 }
 
-@media all and (max-width: 530px) {
+@media screen and (max-width: 1184px) {
   .journey {
-    padding-top: 66px;
+    padding-bottom: 62.5%;
+  }
+}
+
+
+@media all and (max-width: 800px) {
+  .journey {
+    margin: 90px auto 0;
   }
 }

@@ -12,12 +12,14 @@
       <header class="header">
         <div class="header__logo"></div>
         <ul class="header__lang">
-          <li>
-            <a class="header__lang-text header__lang-text_active" href="#"
+          <li class="header__link">
+            <a class="header__lang-text header__lang-text_active link" href="#"
               >Ru</a
             >
           </li>
-          <li><a class="header__lang-text" href="#">En</a></li>
+          <li class="header__link">
+            <a class="header__lang-text link" href="#">En</a>
+          </li>
         </ul>
       </header>
       <main class="content">
@@ -126,7 +128,7 @@
             <h3 class="card__title">Куршская коса</h3>
             <div class="card__url-container">
               <p class="card__url">URL</p>
-              <a href="http://park-kosa.ru" class="card__link link__active"
+              <a href="http://park-kosa.ru" class="card__link link"
                 >park-kosa.ru</a
               >
             </div>
@@ -158,7 +160,7 @@
               <p class="card__url">URL</p>
               <a
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                class="card__link link__active"
+                class="card__link link"
                 >National Geographic</a
               >
             </div>
@@ -190,7 +192,7 @@
               <p class="card__url">URL</p>
               <a
                 href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-                class="card__link link__active"
+                class="card__link link"
                 >Facebook</a
               >
             </div>
@@ -216,9 +218,7 @@
             <h3 class="card__title">Зимний Байкал</h3>
             <div class="card__url-container">
               <p class="card__url">URL</p>
-              <a
-                href="https://vk.com/baikalmile"
-                class="card__link link__active"
+              <a href="https://vk.com/baikalmile" class="card__link link"
                 >https://vk.com/baikalmile</a
               >
             </div>
@@ -247,7 +247,7 @@
             <h3 class="card__title">Карелия</h3>
             <div class="card__url-container">
               <p class="card__url">URL</p>
-              <a href="http://vodlozero.ru" class="card__link link__active"
+              <a href="http://vodlozero.ru" class="card__link link"
                 >http://vodlozero.ru/</a
               >
             </div>
@@ -270,54 +270,50 @@
           </div>
         </section>
         <section class="journey">
-          <a
-            href="https://stampsy.com/na-elektrichkakh-do-baikala"
-            class="journey__link"
-          >
-            <img src="./images/cover-trains.jpg" class="journey__img" alt="Железнодороная станция" />
-            <div class="journey__cover"></div>
-            <h2 class="journey__title">До Байкала «на собаках»</h2>
-            <p class="journey__subtitle">
-              По мотивам учебной темы о Транссибе — путешествие от столицы до
-              Байкала на электричках.
-            </p>
-          </a>
+          <div class="journey__cover">
+            <a
+              href="https://stampsy.com/na-elektrichkakh-do-baikala"
+              class="journey__link"
+            >
+              <h2 class="journey__title">До Байкала «на собаках»</h2>
+              <p class="journey__subtitle">
+                По мотивам учебной темы о Транссибе — путешествие от столицы до
+                Байкала на электричках.
+              </p>
+            </a>
+          </div>
         </section>
       </main>
       <footer class="footer">
         <nav>
           <ul class="footer__menu">
             <li>
-              <a
-                class="footer__menu-element link__active"
-                href="https://yandex.ru/maps"
+              <a class="footer__menu-element link" href="https://yandex.ru/maps"
                 >Карты</a
               >
             </li>
             <li>
               <a
-                class="footer__menu-element link__active"
+                class="footer__menu-element link"
                 href="https://yandex.ru/pogoda"
                 >Погода</a
               >
             </li>
             <li>
-              <a
-                class="footer__menu-element link__active"
-                href="https://rasp.yandex.ru"
+              <a class="footer__menu-element link" href="https://rasp.yandex.ru"
                 >Расписание</a
               >
             </li>
             <li>
               <a
-                class="footer__menu-element link__active"
+                class="footer__menu-element link"
                 href="https://calendar.yandex.ru"
                 >Календарь</a
               >
             </li>
             <li>
               <a
-                class="footer__menu-element link__active"
+                class="footer__menu-element link"
                 href="https://travel.yandex.ru"
                 >Путешествия</a
               >

@@ -1,7 +1,7 @@
-.link__active {
+.link {
   transition: 300ms;
 }
 
-.link__active:hover {
+.link:hover {
   opacity: .8;
 }
