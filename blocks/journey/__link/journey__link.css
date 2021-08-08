@@ -2,5 +2,30 @@
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  height: 100%;
+  margin: auto;
+  min-height: 740px;
+}
+
+@media screen and (max-width: 1184px) {
+  .journey__link {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .journey__link {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .journey__link {
+    min-height: 350px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .journey__link {
+    min-height: 200px;
+  }
 }

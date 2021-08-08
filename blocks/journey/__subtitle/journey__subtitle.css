@@ -5,6 +5,8 @@
   text-align: center;
   margin: 0 auto auto;
   max-width: 360px;
+  position: relative;
+  z-index: 1;
 }
 
 @media all and (max-width: 700px) {

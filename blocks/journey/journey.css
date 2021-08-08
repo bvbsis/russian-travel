@@ -4,23 +4,49 @@
   position: relative;
   background-image: url(../../images/cover-trains.jpg);
   max-width: 1184px;
-  padding-bottom: 60%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
   margin: 92px auto 0;
+}
 
+.journey::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(42, 44, 47);
+  opacity: .3;
+  transition: 300ms;
+}
+
+.journey:hover::before {
+  opacity: .8;
 }
 
 @media screen and (max-width: 1184px) {
   .journey {
-    padding-bottom: 62.5%;
+    max-width: 1024px;
   }
 }
 
-
-@media all and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .journey {
-    margin: 90px auto 0;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .journey {
+    max-width: 560px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .journey {
+    max-width: 320px;
   }
 }

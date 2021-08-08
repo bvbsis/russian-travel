@@ -6,6 +6,8 @@
   color: white;
   margin: auto auto 32px;
   max-width: 560px;
+  position: relative;
+  z-index: 1;
 }
 
 @media all and (max-width: 700px) {
