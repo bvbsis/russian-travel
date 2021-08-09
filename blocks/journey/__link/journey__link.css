@@ -4,6 +4,8 @@
   text-decoration: none;
   margin: auto;
   min-height: 740px;
+  width: 100%;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1184px) {
